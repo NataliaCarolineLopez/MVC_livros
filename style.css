@@ -53,16 +53,10 @@ ul li span {
 
 ul li .titulo {
     font-weight: bold;
-    color: #3498db;
 }
 
 ul li .autor {
     font-style: italic;
-    color: #2ecc71;
-}
-
-ul li .ano {
-    color: #e74c3c;
 }
 
 
