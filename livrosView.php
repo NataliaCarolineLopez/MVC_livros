@@ -1,7 +1,7 @@
 <?php
 // livrosView.php
 function exibirLivros($livros) {
-    echo "<ul>";
+    echo "<h2> Lista de Livros:</h2> <ul>";
     foreach ($livros as $livro) {
         echo "<li>Título: {$livro['titulo']} | Autor: {$livro['autor']} | Ano: {$livro['ano']}</li>";
     }

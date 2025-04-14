@@ -2,7 +2,6 @@
 class Livro {
     // Array de livros
     private $livros = [
-        ['titulo' => 'Dom Casmurro', 'autor' => 'Machado de Assis', 'ano' => 1899],
         ['titulo' => 'Café com Deus Pai', 'autor' => 'Junior Rostirola', 'ano' => 2020],
         ['titulo' => 'é assim que acaba', 'autor' => 'Colleen Hoover', 'ano' => 2016],
         ['titulo' => 'Racionais, Sobrevivendo no inferno', 'autor' => 'Racionais Mcs', 'ano' => 2018],
