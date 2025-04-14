@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+ul li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+
+ul li:hover {
+    background-color: #ecf0f1;
+    transform: scale(1.02);
+}
+
+/* Texto do livro */
+ul li span {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+
+ul li .titulo {
+    font-weight: bold;
+    color: #3498db;
+}
+
+ul li .autor {
+    font-style: italic;
+    color: #2ecc71;
+}
+
+ul li .ano {
+    color: #e74c3c;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

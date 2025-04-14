@@ -1,8 +1,26 @@
-<?php
-// index.php
-require_once 'LivroController.php';
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Escolar</title>
+    <link rel="stylesheet" href="style.css"> <!-- Inclui o CSS -->
+</head>
+<body>
 
-$livroController = new LivroController();
-$livroController->listarLivros();
-?>
+    <div class="container">
+        <h1>Biblioteca Escolar</h1>
+        <?php
+            require_once 'LivroController.php';
+
+            // Instancia o controlador
+            $controller = new LivroController();
+
+            // Chama o método para listar livros
+            $controller->listarLivros();
+        ?>
+    </div>
+
+</body>
+</html>
 
