@@ -43,7 +43,6 @@ ul li:hover {
     transform: scale(1.02);
 }
 
-/* Texto do livro */
 ul li span {
     display: block;
     font-size: 1.1em;
